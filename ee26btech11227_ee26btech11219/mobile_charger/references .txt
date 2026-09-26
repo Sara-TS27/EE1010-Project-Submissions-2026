@@ -1,0 +1,19 @@
+﻿References
+1. Circuit Design & Documentation
+1. Basic Circuit Reference: GitHub Repository – Charger Lab PDF
+Youtube videos:
+5V DC Power Supply | Circuit Connections |
+How to make 5 volt power supply in 5 minutes Easily
+2. AI Assistance & Safety Analysis
+1. Circuit Modification: Assisted by Claude (Anthropic AI source)
+2. Safety Hazards & Constraints: Discussion and analysis using ChatGPT (OpenAI)
+3. Research about the buck convertor:  Assisted by Claude (Anthropic AI source)
+3. 3D Printing & Modeling
+1. Lid Design Overview: Types of Lids | Design for Mass Production 3D Printing
+2. Charger Sliding Lid idea: Make a Tinkercad 3D printed Box with a Sliding Lid in Minutes!
+           Sliding Lid Box: Building in Tinkercad #3dprinting #tinkercad #shorts  #boxdesign
+      3.   Learning more about Openscad: 
+            Openscad: How to Model an Enclosure Generator  
+      4.  Final 3D Model: Developed through internal brainstorming and team discussions
+4. Soldering & Assembly
+Soldering Basics & Perfboard Usage: Using Perfboard | Soldering Basics | Soldering for Beginners
