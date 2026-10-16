@@ -17,11 +17,13 @@ const float CVD_A = 3.9083e-3;
 const float CVD_B = -5.775e-7;
 
 // ---- Least-squares calibration ----
-// Fitted from three points (Arduino reading -> actual temperature):
+// Fitted from 11 points (Arduino reading -> actual temperature):
 //   cold water 14.48 -> 17.45 C, room 29.34 -> 32.45 C, hot water 46.53 -> 49.20 C
-// actual = CAL_SLOPE * reading + CAL_OFFSET
-const float CAL_SLOPE  = 0.9902;
-const float CAL_OFFSET = 3.2113;   // degrees C
+//   kettle: 27.05 -> 28.5, 29.70 -> 31.1, 31.09 -> 33.2, 33.11 -> 34.2,
+//           35.13 -> 37.4, 27.15 -> 30.3, 39.17 -> 42.4, 35.30 -> 37.0
+// actual = CAL_SLOPE * reading + CAL_OFFSET   (all points within 1.2 C, RMS 0.75 C)
+const float CAL_SLOPE  = 0.9954;
+const float CAL_OFFSET = 2.4317;   // degrees C
 
 const int SAMPLES = 200;       // readings averaged per update
 
